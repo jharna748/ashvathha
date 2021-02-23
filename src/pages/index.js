@@ -62,7 +62,7 @@ export default (() => {
 						font="--headline1"
 						md-font="--headline2"
 						margin="10px 0"
-						color="#127fec"
+						color="#652900"
 					>
 						Creating opportunities for pre-service teachers
 					</Text>
@@ -93,7 +93,7 @@ export default (() => {
 				margin="8px 0px 32px"
 				font="--headline1"
 				md-font="--headline2"
-				color="--red"
+				color="--orange"
 				max-width="850px"
 			>
 				here's how we do it

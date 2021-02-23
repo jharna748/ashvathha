@@ -15,7 +15,7 @@ export default {
 		},
 		"602771fdbfd603001f71d84a": {
 			"id": "602771fdbfd603001f71d84a",
-			"name": "404",
+			"name": "can't find",
 			"pageUrl": "404"
 		},
 		"602771fdbfd603001f71d84c": {
