@@ -55,13 +55,13 @@ export default (() => {
 			color="--light"
 			font="--base"
 		>
-			<Stack>
+			<Stack font="300 16px/24px monteserrat">
 				<StackItem width="75%" lg-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Text color="--lightD2" letter-spacing="1px" text-transform="uppercase" margin="0">
 						vision
 					</Text>
-					<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0">
+					<Text as="h1" font="normal 900 72px/1.2 --fontFamily-googleMontserrat" md-font="--headline2" margin="10px 0">
 						all educators evolve to rediscover learning  and reimagine education.
 					</Text>
 				</StackItem>
@@ -95,36 +95,62 @@ export default (() => {
 			<Text
 				as="h1"
 				margin="8px 0px 32px"
-				font="--headline1"
+				font="normal 900 72px/1.2 --fontFamily-googleMontserrat"
 				md-font="--headline2"
-				color="--red"
+				color="#D18f41"
 				max-width="850px"
 			>
 				why evolve, rediscover and reimagine?
 			</Text>
 			<Stack margin-top="auto" color="--grey" font="--base">
 				<StackItem width="25%" md-width="50%" sm-width="100%">
-					<Text margin="0px">
-						<Strong>
+					<Text margin="0px" font="300 16px/24px --fontFamily-googleMontserrat">
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
 							Why evolve?{" "}
 						</Strong>
 						Being a good educator is a lifelong pursuit that requires humble reflection and continuous growth{"\n\n"}
 					</Text>
 				</StackItem>
 				<StackItem width="25%" md-width="50%" sm-width="100%">
-					<Text margin="0px">
-						<Strong>
+					<Text margin="0px" font="300 16px/24px --fontFamily-googleMontserrat">
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
 							Why rediscover learning?{" "}
 						</Strong>
 						Foremost, educators have to connect with their intrinsic motivation to learn, if they are to inspire learning amongst others{"\n\n"}
 					</Text>
 				</StackItem>
 				<StackItem width="25%" md-width="50%" sm-width="100%">
-					<Text margin="0px">
-						<Strong>
+					<Text margin="0px" font="300 16px/24px --fontFamily-googleMontserrat">
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
 							Why reimagine education?
 						</Strong>
-						{" "}Our ultimate dream is that there are new ways of learning-teaching, and organizing the process of knowledge creation and transmission{"\n\n"}
+						{" "}
+						<br />
+						Our ultimate dream is that there are new ways of learning-teaching, and organizing the process of knowledge creation and transmission{"\n\n"}
 					</Text>
 				</StackItem>
 			</Stack>
