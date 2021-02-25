@@ -39,11 +39,22 @@ export default (() => {
 					md-flex-direction="column"
 					md-align-items="center"
 				>
-					<Override slot="link" text-decoration="none" color="--dark" padding="6px 12px" />
+					<Override
+						slot="link"
+						text-decoration="none"
+						color="--dark"
+						padding="6px 12px"
+						active-color="#d18f41"
+						visited-color="#d18f41"
+						link-color="#d18f41"
+					/>
 					<Override slot="link-active" color="--primary" />
 					<Override slot="item" padding="6px" />
 					<Override slot="link-index">
 						home
+					</Override>
+					<Override slot="link-who-we-are">
+						who we are
 					</Override>
 				</Menu>
 			</Box>
