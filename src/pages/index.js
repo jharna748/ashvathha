@@ -118,31 +118,55 @@ export default (() => {
 				margin="8px 0px 32px"
 				font="--headline1"
 				md-font="--headline2"
-				color="--dark"
+				color="#d18f41"
 				max-width="850px"
 			>
 				all educators evolve to rediscover learning & reimagine education
 			</Text>
 			<Stack margin-top="auto" color="--grey" font="--base">
 				<StackItem width="25%" md-width="50%" sm-width="100%">
-					<Text margin="0px">
-						<Strong>
+					<Text margin="0px" color="#5d3b16">
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
 							Why evolve?{" "}
 						</Strong>
 						Being a good educator is a lifelong pursuit that requires humble reflection and continuous growth{"\n\n"}
 					</Text>
 				</StackItem>
 				<StackItem width="25%" md-width="50%" sm-width="100%">
-					<Text margin="0px">
-						<Strong>
+					<Text margin="0px" color="#5d3b16">
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
 							Why rediscover learning?{" "}
 						</Strong>
 						Foremost, educators have to connect with their intrinsic motivation to learn, if they are to inspire learning amongst others{"\n\n"}
 					</Text>
 				</StackItem>
 				<StackItem width="25%" md-width="50%" sm-width="100%">
-					<Text margin="0px">
-						<Strong>
+					<Text margin="0px" color="#5d3b16">
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
 							Why reimagine education?
 						</Strong>
 						{" "}
@@ -168,7 +192,9 @@ export default (() => {
 				max-width="850px"
 				color="--grey"
 				margin="0px"
-			/>
+			>
+				here's what we do
+			</Text>
 			<Text
 				as="h1"
 				margin="8px 0px 32px"
