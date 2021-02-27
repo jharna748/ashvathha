@@ -150,11 +150,6 @@ export default (() => {
 						Our ultimate dream is that there are new ways of learning-teaching, and organizing the process of knowledge creation and transmission{"\n\n"}
 					</Text>
 				</StackItem>
-				<StackItem width="25%" md-width="50%" sm-width="100%">
-					<Text margin="0px">
-						Hi! I'm a paragraph. Click here to add your own text and edit me. It’s a piece of cake.
-					</Text>
-				</StackItem>
 			</Stack>
 		</Section>
 		<Section
