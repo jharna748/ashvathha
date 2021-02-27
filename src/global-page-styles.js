@@ -6,9 +6,7 @@ const pageStyles = {
     "404": {},
     "index": {},
     "what-we-do": {},
-    "who-we-are": {},
-    "blog": {},
-    "contact": {}
+    "who-we-are": {}
 };
 
 const PageStyles = createGlobalStyle`

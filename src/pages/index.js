@@ -1,15 +1,16 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Text, Button } from "@quarkly/widgets";
+import { Theme, Link, Image, Box, Text } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Override, Menu, Section, StackItem, Stack } from "@quarkly/components";
+import { Override, Section, StackItem, Stack } from "@quarkly/components";
+import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				Ashvattha
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
@@ -24,24 +25,11 @@ export default (() => {
 				md-flex-direction="column"
 			>
 				<Image width="256px" height="256px" src="https://uploads.quarkly.io/602771fdbfd603001f71d847/images/ASHVATTHA%20Logo%20not%20curved(use%20only%20for%20editing%20text).jpg?v=2021-02-16T06:18:08.698Z" />
-				<Menu
-					display="flex"
-					justify-content="center"
-					font="--base"
-					font-weight="700"
-					md-flex-direction="column"
-					md-align-items="center"
-				>
-					<Override slot="link" text-decoration="none" color="--dark" padding="6px 12px" />
-					<Override slot="link-active" color="--primary" />
-					<Override slot="item" padding="6px" />
-					<Override slot="link-index">
-						home
-					</Override>
+				<Components.Mainmenu>
 					<Override slot="link-404">
-						rdnc mittal foundation
+						404
 					</Override>
-				</Menu>
+				</Components.Mainmenu>
 			</Box>
 		</Section>
 		<Section
@@ -117,18 +105,12 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section padding="100px 0" sm-padding="40px 0">
-			<Override slot="SectionContent" align-items="center" />
-			<Text as="h2" font="--headline1" md-font="--headline2" margin="20px 0 0 0">
-				About Us
-			</Text>
-			<Text as="p" font="--lead" margin="20px 0 0 0">
-				Ashvattha is a Jaipur based initiative to facilitate young people in their journey to become educators. Ashvattha is supported by RDNC Mittal Foundation.{"\n\n"}
-			</Text>
-			<Button font="--lead" margin="20px">
-				About the Foundation
-			</Button>
-		</Section>
+		<Link href="#">
+			Some text
+		</Link>
+		<Link href="#">
+			Some text
+		</Link>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

@@ -10,7 +10,7 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"who-we-are"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				Ashvattha
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
@@ -219,56 +219,124 @@ export default (() => {
 			<Stack margin-top="40px">
 				<StackItem width="25%" lg-width="50%" sm-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1503443207922-dff7d543fd0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=582&q=80) 50% 0/cover no-repeat" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/602771fdbfd603001f71d847/images/Arushi.jpg?v=2021-02-27T07:26:47.530Z) 50% 0/cover no-repeat" />
 					<Text color="--grey" margin="0">
-						CEO
+						founder
 					</Text>
 					<Text as="h3" font="--headline3" margin="5px 0 20px 0">
-						Arushi Mittal
+						Arushi
 					</Text>
-					<Text as="p" margin="20px 0 5px 0">
-						This space is 100% editable. Use it to introduce a team member, describe their work experience and role within the company. This is also a great place to highlight a team member's strong sides.
+					<Text as="p" margin="20px 0 5px 0" font="300 12px/24px --fontFamily-googleMontserrat">
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							Arushi is eternally fascinated by humans and humanity, and strives to create spaces for mutual learning and for collective evolution. Brought up in Rajasthan, and in love with this land of colorful mirages, Arushi has previously co-founded two social enterprises, with a focus on gender education and rural development, respectively. She has also worked with organizations like Cuemath, Sir Ratan Tata Trust, Centre for Science and Environment and Be! Fund. Keen conversationalist and compulsive chai drinker, she is an alumnus of Harvard GSE and IIT Delhi and a trustee at the RDNC Mittal Foundation.
+							<br />
+							<br />
+							<br />
+							Words: Curious, Feminist, Nature lover
+						</Strong>
+						<br />
+						{"\n\n"}
 					</Text>
 				</StackItem>
 				<StackItem width="25%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1546672741-d327539d5f13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80) 50% 0/cover no-repeat" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/602771fdbfd603001f71d847/images/Diksha%20K.jpg?v=2021-02-27T07:27:58.553Z) 50% 0/cover no-repeat" />
 					<Text color="--grey" margin="0">
-						Developer
+						friends of ashvattha
 					</Text>
 					<Text as="h3" font="--headline3" margin="5px 0 20px 0">
 						Diksha{" "}
 					</Text>
-					<Text as="p" margin="20px 0 5px 0">
-						This space is 100% editable. Use it to introduce a team member, describe their work experience and role within the company. This is also a great place to highlight a team member's strong sides.
+					<Text as="p" margin="20px 0 5px 0" font="300 12px/24px --fontFamily-googleMontserrat">
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							Diksha is passionate about exploring ways to engage young children to understand their thinking. She loves to design experiences for young learners where they have the scope to think, ideate and create in their own ways. She believes in honouring the children's voice and learning with them while being in the classroom. She hopes to empower teachers to think out of the box and design authentic experiences for the children, be present in the process to see the magic unfold in the classroom. She has done her Masters in Education from Tata Institute of Social Science (TISS). In her free time, you would see her reading a book or looking at the sky.{" "}
+						</Strong>
+						{"\n\n"}
 					</Text>
 				</StackItem>
 				<StackItem width="25%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80) 50% 0/cover no-repeat" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/602771fdbfd603001f71d847/images/apoorva.JPG?v=2021-02-27T07:28:29.626Z) 50% 0/cover no-repeat" />
 					<Text color="--grey" margin="0">
-						Marketing
+						friends of ashvattha
 					</Text>
 					<Text as="h3" font="--headline3" margin="5px 0 20px 0">
-						Janet E. Morey
+						Apoorva
 					</Text>
-					<Text as="p" margin="20px 0 5px 0">
-						This space is 100% editable. Use it to introduce a team member, describe their work experience and role within the company. This is also a great place to highlight a team member's strong sides.
+					<Text as="p" margin="20px 0 5px 0" font="300 12px/24px --fontFamily-googleMontserrat">
+						<Strong>
+							Apoorva loves to contemplate on education philosophy, go on nature walks, play with children, travel, read, meditate, watch the night sky! A new world opened up before her when she left her corporate job as a marketer and decided to spend a few years in a small village in Himachal Pradesh. She experienced a new life in the mountains and lived closer to nature than ever before. In Himachal, she worked with Aavishkaar where she learnt about alternate, much more engaging methods to teach Math and Science to school students. She has also worked  with a Delhi based organization Joy of Learning Foundation where she trained many Math and Science teachers from across the country.{" "}
+						</Strong>
+						<br />
+						{"\n\n"}
+					</Text>
+				</StackItem>
+			</Stack>
+		</Section>
+		<Section padding="64px 0" sm-padding="40px 0" font="--base" color="--dark">
+			<Stack margin-top="40px">
+				<StackItem width="25%" lg-width="50%" sm-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/602771fdbfd603001f71d847/images/Palak.jpg?v=2021-02-27T07:31:53.968Z) 50% 0/cover no-repeat" />
+					<Text color="--grey" margin="0">
+						friends of ashvattha
+					</Text>
+					<Text as="h3" font="--headline3" margin="5px 0 20px 0">
+						Palak
+					</Text>
+					<Text as="p" margin="20px 0 5px 0" font="300 12px/24px --fontFamily-googleMontserrat">
+						<Strong>
+							Palak is a passionate educator who believes that  each child should have access to a high quality education and strives to achieve this by coaching and empowering teachers in government schools and budget private schools. She is a Teach for India fellow who has worked with students and teachers in both urban and rural schools in different states of India. She has done her Masters in Educational Leadership from the University of Manchester, while on the UK government's Chevening scholarship. She is currently working as an Academic Excellence Manager at LEAD School. In her free time, you will find her with her Kindle and chai, ready to tell you why Harry Potter is the best thing ever!{" "}
+						</Strong>
+						{"\n\n"}
 					</Text>
 				</StackItem>
 				<StackItem width="25%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
 					<Override slot="StackItemContent" flex-direction="column" />
-					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1510227272981-87123e259b17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=666&q=80) 50% 0/cover no-repeat" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/602771fdbfd603001f71d847/images/Suhani.jpg?v=2021-02-27T07:32:22.879Z) 50% 0/cover no-repeat" />
 					<Text color="--grey" margin="0">
-						Designer
-						<br />
+						friends of ashvattha
 					</Text>
 					<Text as="h3" font="--headline3" margin="5px 0 20px 0">
-						Claire R. Peery
-						<br />
+						Suhani
 					</Text>
-					<Text as="p" margin="20px 0 5px 0">
-						This space is 100% editable. Use it to introduce a team member, describe their work experience and role within the company. This is also a great place to highlight a team member's strong sides.
+					<Text as="p" margin="20px 0 5px 0" font="300 12px/24px --fontFamily-googleMontserrat">
+						<Strong>
+							Suhani is a conscious, compassionate, & creative leader with over 5 years of experience in the education sector. Her ever evolving core commitment is to design and facilitate experiences to empower individuals and groups to unleash their potential; and build strong relationships with them towards a just, equitable, holistic way of living. She is a Teach For India Fellow and has also worked on the staff team for 4 years. She is currently working as Curriculum Manager at Global School Leaders. Suhani loves reading, experimenting in the kitchen, creating art and exploring new places with her family and friends.{" "}
+						</Strong>
+						{"\n\n"}
+					</Text>
+				</StackItem>
+				<StackItem width="25%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/602771fdbfd603001f71d847/images/JB%20full%20length[1].png?v=2021-02-27T07:29:52.651Z) 50% 0/cover no-repeat" />
+					<Text color="--grey" margin="0">
+						friends of ashvattha
+					</Text>
+					<Text as="h3" font="--headline3" margin="5px 0 20px 0">
+						Jayanti
+					</Text>
+					<Text as="p" margin="20px 0 5px 0" font="300 12px/24px --fontFamily-googleMontserrat">
+						<Strong>
+							Jayanti is passionate about Social and Emotional Learning (SEL) or the whole child development to prepare children for facing the unknown. She believes that teachers are at the heart of this work and are the drivers of successful education systems. It is this belief and desire to empower teachers that has made her join the Ashvattha mission. She is a graduate of the Ed.M. International Education Policy program from the Harvard Graduate School of Education (HGSE) and is currently working as an Education Specialist Consultant with the World Bank. Jayanti loves spending time with her family, playing foosball and board games, practicing meditation, and exploring new places and adventures.{" "}
+						</Strong>
+						{"\n\n"}
 					</Text>
 				</StackItem>
 			</Stack>
