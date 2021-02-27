@@ -1,10 +1,11 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Text } from "@quarkly/widgets";
+import { Theme, Link, Image, Box, Text, Icon, Strong } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, Section, StackItem, Stack } from "@quarkly/components";
 import * as Components from "components";
+import { MdArrowDownward } from "react-icons/md";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -33,12 +34,13 @@ export default (() => {
 			</Box>
 		</Section>
 		<Section
-			background="--color-light"
+			background="--color-light url()"
 			padding="64px 0"
 			sm-padding="40px 0"
 			color="--light"
 			font="--base"
 		>
+			<Override slot="SectionContent" background="rgba(0, 0, 0, 0) url() 0% 0% /auto repeat scroll padding-box" />
 			<Stack>
 				<StackItem width="75%" lg-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
@@ -52,7 +54,13 @@ export default (() => {
 						margin="10px 0"
 						color="#652900"
 					>
-						Creating opportunities for pre-service teachers
+						Creating opportunities{" "}
+						<br />
+						for{" "}
+						<br />
+						pre-service{" "}
+						<br />
+						teachers
 					</Text>
 				</StackItem>
 			</Stack>
@@ -105,12 +113,104 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Link href="#">
-			Some text
-		</Link>
-		<Link href="#">
-			Some text
-		</Link>
+		<Section
+			background="linear-gradient(0deg,rgba(4, 8, 12, 0.6) 0%,rgba(4, 8, 12, 0.6) 100%),--color-darkL2 url(https://uploads.quarkly.io/602771fdbfd603001f71d847/images/ashvattha.jpg?v=2021-02-27T12:26:04.790Z) center/cover"
+			padding="64px 0"
+			sm-padding="40px 0"
+			color="--light"
+			font="--base"
+		>
+			<Stack>
+				<StackItem width="75%" lg-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Text color="--lightD2" letter-spacing="1px" text-transform="uppercase" margin="0">
+						all educators evolve to rediscover learning and reimagine education.
+					</Text>
+					<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0">
+						integrity
+						<br />
+						reflection
+						<br />
+						collaboration
+						<br />
+						equity
+						<br />
+						joy
+						<br />
+						<br />
+					</Text>
+				</StackItem>
+			</Stack>
+			<Box text-align="center" margin="96px 0 0 0">
+				<Text margin="8px 0" text-transform="uppercase">
+					why evolve?
+				</Text>
+				<Icon category="md" margin="0 auto" icon={MdArrowDownward} />
+			</Box>
+		</Section>
+		<Section
+			padding="60px 0"
+			sm-padding="40px 0"
+			min-height="600px"
+			sm-min-height="auto"
+			background="--color-light"
+			display="flex"
+			flex-direction="column"
+		>
+			<Text
+				font="--base"
+				text-transform="uppercase"
+				letter-spacing="1px"
+				max-width="850px"
+				color="--grey"
+				margin="0px"
+			>
+				evolve, rediscove, reimagine teaching...
+			</Text>
+			<Text
+				as="h1"
+				margin="8px 0px 32px"
+				font="--headline1"
+				md-font="--headline2"
+				color="--dark"
+				max-width="850px"
+			>
+				why?
+			</Text>
+			<Stack margin-top="auto" color="--grey" font="--base">
+				<StackItem width="25%" md-width="50%" sm-width="100%">
+					<Text margin="0px">
+						<Strong>
+							Why evolve?{" "}
+						</Strong>
+						Being a good educator is a lifelong pursuit that requires humble reflection and continuous growth{"\n\n"}
+					</Text>
+				</StackItem>
+				<StackItem width="25%" md-width="50%" sm-width="100%">
+					<Text margin="0px">
+						<Strong>
+							Why rediscover learning?{" "}
+						</Strong>
+						Foremost, educators have to connect with their intrinsic motivation to learn, if they are to inspire learning amongst others{"\n\n"}
+					</Text>
+				</StackItem>
+				<StackItem width="25%" md-width="50%" sm-width="100%">
+					<Text margin="0px">
+						<Strong>
+							Why reimagine education?
+						</Strong>
+						{" "}
+						<br />
+						Our ultimate dream is that there are new ways of learning-teaching, and organizing the process of knowledge creation and transmission{"\n\n"}
+					</Text>
+				</StackItem>
+				<StackItem width="25%" md-width="50%" sm-width="100%">
+					<Text margin="0px">
+						Hi! I'm a paragraph. Click here to add your own text and edit me. It’s a piece of cake.
+					</Text>
+				</StackItem>
+			</Stack>
+		</Section>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
