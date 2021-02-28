@@ -60,7 +60,7 @@ export default (() => {
 			</Box>
 		</Section>
 		<Section
-			background="linear-gradient(0deg,rgba(4, 8, 12, 0.6) 0%,rgba(4, 8, 12, 0.6) 100%),--color-darkL2 url(https://images.unsplash.com/photo-1613984431576-0beeedf617b4?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) center/cover"
+			background="linear-gradient(0deg,rgba(4, 8, 12, 0.6) 0%,rgba(4, 8, 12, 0.6) 100%),--color-darkL2 url(https://uploads.quarkly.io/602771fdbfd603001f71d847/images/evolve%20leaves.jpg?v=2021-02-28T05:19:01.812Z) center/cover"
 			padding="64px 0"
 			sm-padding="40px 0"
 			color="--light"
