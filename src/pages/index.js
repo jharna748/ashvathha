@@ -30,15 +30,17 @@ export default (() => {
 					<Override slot="link-404">
 						404
 					</Override>
+					<Override slot="item-404" display="none" />
 				</Components.Mainmenu>
 			</Box>
 		</Section>
 		<Section
-			background="--color-light url()"
+			background="--color-light"
 			padding="64px 0"
 			sm-padding="40px 0"
 			color="--light"
 			font="--base"
+			position="static"
 		>
 			<Override slot="SectionContent" background="rgba(0, 0, 0, 0) url() 0% 0% /auto repeat scroll padding-box" />
 			<Stack>

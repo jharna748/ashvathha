@@ -56,6 +56,7 @@ export default (() => {
 					<Override slot="link-who-we-are">
 						who we are
 					</Override>
+					<Override slot="item-404" display="none" />
 				</Menu>
 			</Box>
 		</Section>
