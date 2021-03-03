@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Text, Icon, Strong } from "@quarkly/widgets";
+import { Theme, Link, Image, Box, Text, Strong, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, Section, StackItem, Stack } from "@quarkly/components";
@@ -57,6 +57,28 @@ export default (() => {
 						color="#652900"
 					>
 						creating opportunities for pre-service teachers
+					</Text>
+					<Text color="#030303" font="300 16px/24px --fontFamily-googleMontserrat">
+						<Strong
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							In the living-breathing forests of society, educators are like trees facilitating fruits of learning. Indian educators, however, are transplanted from one learning ecosystem to the other, without sufficient incubation and intellectual nourishment. Hence, the teaching-learning practices in an average Indian classroom continue to be ineffective.
+							<br />
+							<br />
+							{"\n"}
+							<Strong>
+								Currently, there are _____ teachers in the country, and ____ annually graduate with education degrees from ___ TTIs. However, we still have a student teacher ratio of ____, _____ teacher vacancies exist and latest research on student learning outcomes shows deep divides of equity when it comes to quality education.
+							</Strong>
+							{"\n\n"}
+						</Strong>
+						<br />
+						{"\n\n"}
 					</Text>
 				</StackItem>
 			</Stack>

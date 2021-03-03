@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Text, Icon, Strong } from "@quarkly/widgets";
+import { Theme, Link, Image, Box, Text, Strong, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, Menu, Section, StackItem, Stack } from "@quarkly/components";
@@ -59,6 +59,49 @@ export default (() => {
 					<Override slot="item-404" display="none" />
 				</Menu>
 			</Box>
+		</Section>
+		<Section
+			padding="60px 0"
+			sm-padding="40px 0"
+			min-height="600px"
+			sm-min-height="auto"
+			background="--color-light"
+			display="flex"
+			flex-direction="column"
+		>
+			<Text
+				font="--base"
+				text-transform="uppercase"
+				letter-spacing="1px"
+				max-width="850px"
+				color="--grey"
+				margin="0px 0px 8px 0px"
+			/>
+			<Stack color="--grey" font="--base">
+				<StackItem width="50%" md-width="100%">
+					<Text
+						as="h1"
+						margin="0px"
+						font="--headline1"
+						md-font="--headline2"
+						color="--dark"
+						max-width="850px"
+					>
+						Who we are
+					</Text>
+				</StackItem>
+				<StackItem width="50%" md-width="100%">
+					<Text margin="0px">
+						<Strong>
+							In the living-breathing forests of society, educators are like trees facilitating fruits of learning. Ashvattha, i.e. peepal tree, represents an educator with deep roots - of understanding educational purpose, philosophy and pedagogies, and with large foliage - creating inclusive and meaningful learning experiences.
+							<br />
+							<br />
+							We, at Ashvattha Learning Communities, are cultivators committed to nurture these carriers of knowledge and learning.
+						</Strong>
+						{"\n\n"}
+					</Text>
+				</StackItem>
+			</Stack>
 		</Section>
 		<Section
 			background="linear-gradient(0deg,rgba(4, 8, 12, 0.6) 0%,rgba(4, 8, 12, 0.6) 100%),--color-darkL2 url(https://uploads.quarkly.io/602771fdbfd603001f71d847/images/evolve%20leaves.jpg?v=2021-02-28T05:19:01.812Z) center/cover"
@@ -205,7 +248,17 @@ export default (() => {
 				joy
 			</Text>
 		</Section>
-		<Section padding="64px 0" sm-padding="40px 0" font="--base" color="--dark">
+		<Section
+			padding="64px 0 64px 0"
+			sm-padding="40px 0"
+			font="--base"
+			color="--dark"
+			position="static"
+			left="22px"
+			text-align="left"
+			white-space="normal"
+			overflow-x="visible"
+		>
 			<Text
 				as="h1"
 				font="normal 900 72px/1.2 --fontFamily-googleMontserrat"
@@ -214,6 +267,7 @@ export default (() => {
 				margin="0 auto 5px auto"
 				text-align="center"
 				color="#5d3b16"
+				display="block"
 			>
 				team
 			</Text>
