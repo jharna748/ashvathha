@@ -1,10 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Text, Strong, Icon } from "@quarkly/widgets";
+import { Theme, Link, Image, Box, Text, Strong, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, Menu, Section, StackItem, Stack } from "@quarkly/components";
-import { MdArrowDownward } from "react-icons/md";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"who-we-are"} />
@@ -60,192 +59,52 @@ export default (() => {
 				</Menu>
 			</Box>
 		</Section>
-		<Section
-			padding="60px 0"
-			sm-padding="40px 0"
-			min-height="600px"
-			sm-min-height="auto"
-			background="--color-light"
-			display="flex"
-			flex-direction="column"
-		>
+		<Section padding="100px 0" sm-padding="40px 0">
+			<Override slot="SectionContent" align-items="center" />
 			<Text
-				font="--base"
-				text-transform="uppercase"
-				letter-spacing="1px"
-				max-width="850px"
-				color="--grey"
-				margin="0px 0px 8px 0px"
-			/>
-			<Stack color="--grey" font="--base">
-				<StackItem width="50%" md-width="100%">
-					<Text
-						as="h1"
-						margin="0px"
-						font="--headline1"
-						md-font="--headline2"
-						color="--dark"
-						max-width="850px"
-					>
-						Who we are
-					</Text>
-				</StackItem>
-				<StackItem width="50%" md-width="100%">
-					<Text margin="0px">
-						<Strong>
-							In the living-breathing forests of society, educators are like trees facilitating fruits of learning. Ashvattha, i.e. peepal tree, represents an educator with deep roots - of understanding educational purpose, philosophy and pedagogies, and with large foliage - creating inclusive and meaningful learning experiences.
-							<br />
-							<br />
-							We, at Ashvattha Learning Communities, are cultivators committed to nurture these carriers of knowledge and learning.
-						</Strong>
-						{"\n\n"}
-					</Text>
-				</StackItem>
-			</Stack>
-		</Section>
-		<Section
-			background="linear-gradient(0deg,rgba(4, 8, 12, 0.6) 0%,rgba(4, 8, 12, 0.6) 100%),--color-darkL2 url(https://uploads.quarkly.io/602771fdbfd603001f71d847/images/evolve%20leaves.jpg?v=2021-02-28T05:19:01.812Z) center/cover"
-			padding="64px 0"
-			sm-padding="40px 0"
-			color="--light"
-			font="--base"
-		>
-			<Stack font="300 16px/24px monteserrat">
-				<StackItem width="75%" lg-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Text color="--lightD2" letter-spacing="1px" text-transform="uppercase" margin="0">
-						vision
-					</Text>
-					<Text as="h1" font="normal 900 72px/1.2 --fontFamily-googleMontserrat" md-font="--headline2" margin="10px 0">
-						all educators evolve to rediscover learning  and reimagine education.
-					</Text>
-				</StackItem>
-			</Stack>
-			<Box text-align="center" margin="96px 0 0 0">
-				<Text margin="8px 0" text-transform="uppercase">
-					Who we are
-				</Text>
-				<Icon category="md" margin="0 auto" icon={MdArrowDownward} />
-			</Box>
-		</Section>
-		<Section
-			padding="60px 0"
-			sm-padding="40px 0"
-			min-height="600px"
-			sm-min-height="auto"
-			background="--color-light"
-			display="flex"
-			flex-direction="column"
-		>
-			<Text
-				font="--base"
-				text-transform="uppercase"
-				letter-spacing="1px"
-				max-width="850px"
-				color="--grey"
-				margin="0px"
-			>
-				mission
-			</Text>
-			<Text
-				as="h1"
-				margin="8px 0px 32px"
-				font="normal 900 72px/1.2 --fontFamily-googleMontserrat"
-				md-font="--headline2"
-				color="#D18f41"
-				max-width="850px"
-			>
-				why evolve, rediscover and reimagine?
-			</Text>
-			<Stack margin-top="auto" color="--grey" font="--base">
-				<StackItem width="25%" md-width="50%" sm-width="100%">
-					<Text margin="0px" font="300 16px/24px --fontFamily-googleMontserrat">
-						<Strong
-							data-q-widget-type="PRIMITIVE"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-						>
-							Why evolve?{" "}
-						</Strong>
-						Being a good educator is a lifelong pursuit that requires humble reflection and continuous growth{"\n\n"}
-					</Text>
-				</StackItem>
-				<StackItem width="25%" md-width="50%" sm-width="100%">
-					<Text margin="0px" font="300 16px/24px --fontFamily-googleMontserrat">
-						<Strong
-							data-q-widget-type="PRIMITIVE"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-						>
-							Why rediscover learning?{" "}
-						</Strong>
-						Foremost, educators have to connect with their intrinsic motivation to learn, if they are to inspire learning amongst others{"\n\n"}
-					</Text>
-				</StackItem>
-				<StackItem width="25%" md-width="50%" sm-width="100%">
-					<Text margin="0px" font="300 16px/24px --fontFamily-googleMontserrat">
-						<Strong
-							data-q-widget-type="PRIMITIVE"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-						>
-							Why reimagine education?
-						</Strong>
-						{" "}
-						<br />
-						Our ultimate dream is that there are new ways of learning-teaching, and organizing the process of knowledge creation and transmission{"\n\n"}
-					</Text>
-				</StackItem>
-			</Stack>
-		</Section>
-		<Section
-			padding="60px 0"
-			sm-padding="40px 0"
-			min-height="600px"
-			sm-min-height="auto"
-			background="--color-light"
-			display="flex"
-			flex-direction="column"
-		>
-			<Text
-				font="--base"
-				text-transform="uppercase"
-				letter-spacing="1px"
-				max-width="850px"
-				color="#d18f41"
-				margin="0px"
-			>
-				values
-			</Text>
-			<Text
-				as="h1"
-				margin="8px 0px 32px"
+				as="h2"
 				font="--headline1"
 				md-font="--headline2"
-				color="#5d4b16"
-				max-width="850px"
+				margin="20px 0 0 0"
+				color="#5d3b16"
 			>
-				integrity
+				who we are
+			</Text>
+			<Text as="p" font="normal 300 20px/1.5 --fontFamily-googleMontserrat" margin="20px 0 0 0">
+				<Strong>
+					<Strong>
+						Like the roots of our beloved Peepal tree play a foundational role in nurturing its ever-growing foliage, we are supported by a network of passionate and determined individuals who share our purpose, values and educational philosophy. These cultivators come from diverse educational and professional backgrounds and contribute to Ashvattha in varying capacities. Each cultivator’s commitment and efforts are instrumental in our journey to transform teacher education in India.
+					</Strong>
+				</Strong>
+				{"\n\n"}
+			</Text>
+			<Button font="--lead" margin="20px" background="#d18f41">
+				what we do
+			</Button>
+		</Section>
+		<Section padding="100px 0" sm-padding="40px 0">
+			<Override slot="SectionContent" align-items="center" />
+			<Text
+				as="h2"
+				font="--headline1"
+				md-font="--headline2"
+				margin="20px 0 0 0"
+				color="#5d3b16"
+			>
+				RNDC Mittal Foundation
+			</Text>
+			<Text as="p" font="normal 300 20px/1.5 --fontFamily-googleMontserrat" margin="20px 0 0 0">
+				<Strong>
+					Ashvattha is an initiative by RDNC Mittal Foundation, a trust set-up in 2010 in Alwar (Raj.) with the aim of contributing to the field of education, health and environment.{" "}
+					<br />
+					<br />
+					In the past, RDNC adopted 3 schools in Alwar district under project Ekta and launched project Ehsas for infrastructure improvement and capacity building of 7 Anganwadis. Their work has been recognized by the state government consecutively for 5 years through Bhamashah Awards.
+					<br />
+					<br />
+					RDNC also operates a subsidised clinic and diagnostic center at Maujpur (Alwar) and regularly conducts medical camps and diagnostic drives. Additionally, RDNC conducts the annual Alwar Gaurav Awards to felicitate Alwarites from diverse walks of life (including education and sports) and inspire others to strive for achieving new heights.
+				</Strong>
 				<br />
-				reflection
-				<br />
-				collaboration
-				<br />
-				equity
-				<br />
-				joy
+				{"\n\n"}
 			</Text>
 		</Section>
 		<Section
